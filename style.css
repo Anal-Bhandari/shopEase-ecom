@@ -245,7 +245,7 @@ textarea:focus-visible {
 
 .section-navbar .navbar ul {
   display: flex;
-  gap: 3.2rem;
+  gap: 2.5rem;
   text-transform: capitalize;
   align-items: center;
 
@@ -253,7 +253,8 @@ textarea:focus-visible {
     color: var(--heading-color);
     font-weight: 600;
     text-transform: uppercase;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
+    overflow: hidden;
     display: inline-block;
     position: relative;
 
@@ -1187,7 +1188,7 @@ footer {
 
   .section-navbar .container {
     flex-direction: column;
-    gap: 3.2rem;
+    gap: 2.5rem;
   }
 
   .section-why--choose {
